@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+
+# Build output
+dist/
+
+# Data files (loose files at root)
+*.pdf
+*.txt
+*.xlsx
+~$*.xlsx
+
+# Spec/config docs (not source code)
+agent-builder.md
+analysistool.md
+analystagent.txt
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
